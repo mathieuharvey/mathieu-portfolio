@@ -2,11 +2,30 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100vw;
     height: 60px;
-    padding: 0px 80px;
+    padding: 0 2%;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .menu {
     padding: 0px 10px;
 }
+
+.menuIcon {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .links {
+      display: none;
+    }
+
+    .menuIcon {
+        display: flex;
+    }
+  }

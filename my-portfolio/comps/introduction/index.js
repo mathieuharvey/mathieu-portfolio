@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Introduction = () => {
     return <div className={styles.container}>
-        Hi! My name is Mathieu, and I am a UX/UI designer.
+        Hi! My name is Mathieu, I am a UX/UI designer.
     </div>
 }
 
