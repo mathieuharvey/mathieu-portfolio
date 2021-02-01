@@ -1,9 +1,9 @@
 .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    height: 60px;
-    padding: 0 2%;
+    height: 80px;
+    padding: 0 5%;
 }
 
 .links {
@@ -14,10 +14,21 @@
 
 .menu {
     padding: 0px 10px;
+    transition: transform .2s;
+}
+
+.menu:hover
+{
+    color: gray;
+    transform: scale(0.95);
 }
 
 .menuIcon {
     display: none;
+}
+
+.name:active {
+    color: gray;
 }
 
 @media (max-width: 600px) {
@@ -26,6 +37,7 @@
     }
 
     .menuIcon {
-        display: flex;
+        display: block;
     }
+    
   }

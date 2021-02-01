@@ -6,7 +6,7 @@ export default function Projects() {
   return ( <div>
     <Header></Header>
         <div className={styles.main}>
-        Projects
+        <h2>Projects</h2>
         </div>
     </div>
   )
